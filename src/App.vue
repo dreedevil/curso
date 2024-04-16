@@ -5,8 +5,10 @@
     <router-link to="/counter">Counter Option</router-link> |
     <router-link to="/counterc">Counter Composition</router-link> |
     <router-link to="/directivaSelect">Directiva Selectiva</router-link> |
-    <router-link to="/directivavfor">Directiva v-for</router-link>
-
+    <router-link to="/directivavfor">Directiva v-for</router-link> |
+    <router-link to="/directivabind">Directiva v-bind</router-link> |
+    <router-link to="/directivaon">Directiva v-on</router-link>
+    
   </nav>
   <router-view/>
 </template>

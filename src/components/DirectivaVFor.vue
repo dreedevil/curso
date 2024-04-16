@@ -14,11 +14,15 @@
 
 <script lang="ts" setup>
  import {Ref, ref} from 'vue';
+ interface Iciudad {
+    code: string,
+    name: string
+ }
  let countries:Ref<Array<string>> = ref([
     'España','Francia','UK','Italia', 'Portugal'
  ])
 
- let ciudades = ref([
+ let ciudades: Ref<Array<Iciudad>> = ref([
     {
         code: 'hu',
         name :'Huixqui'
@@ -36,7 +40,7 @@
 
 <style scoped>
 li {
-    margin-left: auto;
-    margin-right: auto;
+  align-items: center;
+  list-style: none;
 }
 </style>

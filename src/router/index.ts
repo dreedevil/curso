@@ -34,6 +34,16 @@ const routes: Array<RouteRecordRaw> = [
     path: '/directivavfor',
     name: 'directivafor',
     component: () => import( '../views/DirectivaVforView.vue')
+  },
+  { 
+    path: '/directivabind',
+    name: 'directivabind',
+    component: () => import( '../views/ClassBindView.vue')
+  },
+  { 
+    path: '/directivaon',
+    name: 'directivaon',
+    component: () => import( '../views/DirectivaOnView.vue')
   }
 ]
 
