@@ -24,6 +24,16 @@ const routes: Array<RouteRecordRaw> = [
     path: '/counterc',
   name: 'counterc',
   component: () => import( '../views/CounterCompositionView.vue')
+  },
+  { 
+    path: '/directivaSelect',
+  name: 'directivas',
+  component: () => import( '../views/EjemploselectiveView.vue')
+  },
+  { 
+    path: '/directivavfor',
+    name: 'directivafor',
+    component: () => import( '../views/DirectivaVforView.vue')
   }
 ]
 
