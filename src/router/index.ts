@@ -44,6 +44,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/directivaon',
     name: 'directivaon',
     component: () => import( '../views/DirectivaOnView.vue')
+  },
+  { 
+    path: '/modelform',
+    name: 'modelform',
+    component: () => import( '../views/ModelFormView.vue')
   }
 ]
 

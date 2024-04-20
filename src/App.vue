@@ -7,7 +7,8 @@
     <router-link to="/directivaSelect">Directiva Selectiva</router-link> |
     <router-link to="/directivavfor">Directiva v-for</router-link> |
     <router-link to="/directivabind">Directiva v-bind</router-link> |
-    <router-link to="/directivaon">Directiva v-on</router-link>
+    <router-link to="/directivaon">Directiva v-on</router-link> |
+    <router-link to="/modelform">Directiva v-model</router-link>
     
   </nav>
   <router-view/>
